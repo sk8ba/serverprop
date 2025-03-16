@@ -1,0 +1,26 @@
+{
+  "Server": {
+    "Folder": "./",
+    "FileName": "server.jar",
+    "Version": "1.17.1",
+    "Protocol": 756
+  },
+  "Commands": {
+    "StartServer": "java <Commands.StartServerParam> -jar <Server.FileName> nogui",
+    "StartServerParam": "-Xmx1024M -Xms1024M",
+    "StopServer": "stop",
+    "StopServerAllowKill": 10
+  },
+  "Msh": {
+    "ID": "52fdfc0721feefe75af65af163f82654f163f",
+    "Debug": 1,
+    "AllowSuspend": false,
+    "InfoHibernation": "                  \u00A76\u00A7lJoin 2 Start\u00A7r\n                \u00A7ePowered by Borpix",
+    "InfoStarting": "                   §fserver status:\n                    §6§lWARMING UP",
+    "NotifyUpdate": true,
+    "NotifyMessage": true,
+    "ListenPort": 25555,
+    "TimeBeforeStoppingEmptyServer": 30,
+    "Whitelist": []
+  }
+}
